@@ -1,12 +1,14 @@
+import time
+
 import numpy as np
 
 
 class GD_model:
 
-    def __init__(self, x, y, epochs=200, learning_rate=0.01):
+    def __init__(self, x, y, time_limit=5, learning_rate=0.01):
         self.x = np.c_[np.ones((x.shape[0])), x]
         self.y = y
-        self.epochs = epochs
+        self.time_limit = time_limit
         self.learning_rate = learning_rate
         self.w = np.random.uniform(size=np.shape(self.x)[1], )
 
@@ -22,7 +24,8 @@ class GD_model:
         return w
 
     def train(self):
-        for epoch in range(self.epochs):
+        start_time = time.time()
+        while time.time() - start_time < self.time_limit-1:
             randomize = np.arange(len(self.x))
             np.random.shuffle(randomize)
             x = self.x[randomize]
