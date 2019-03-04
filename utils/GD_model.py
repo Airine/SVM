@@ -23,9 +23,16 @@ class GD_model:
             w = w
         return w
 
-    def train(self):
+    def train(self, times=0):
         start_time = time.time()
-        while time.time() - start_time < self.time_limit-1:
+        tempt = times
+        while True:
+            if time.time() - start_time > self.time_limit - 0.5:
+                break
+            else:
+                tempt -= 1
+                if tempt == 0:
+                    break
             randomize = np.arange(len(self.x))
             np.random.shuffle(randomize)
             x = self.x[randomize]
@@ -34,7 +41,6 @@ class GD_model:
             for xi, yi in zip(x, y):
                 loss += self.get_loss(xi, yi)
                 self.w = self.cal_sgd(xi, yi, self.w)
-                # print('epoch: {0} loss: {1}'.format(epoch, loss))
 
     def predict(self, x):
         x_test = np.c_[np.ones((x.shape[0])), x]

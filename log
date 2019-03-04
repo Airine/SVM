@@ -1,0 +1,107 @@
+Iteration number exceeded the max of 20 iterations
+iteration_times: 20
+GD: 0.9764705882352941, time cost: 0.09729814529418945
+SMO: 0.9529411764705882, time cost: 1.0836210250854492
+Iteration number exceeded the max of 30 iterations
+iteration_times: 30
+GD: 0.9803921568627451, time cost: 0.06457304954528809
+SMO: 0.9490196078431372, time cost: 1.1099529266357422
+Iteration number exceeded the max of 40 iterations
+iteration_times: 40
+GD: 0.9803921568627451, time cost: 0.09078788757324219
+SMO: 0.9568627450980393, time cost: 1.4290332794189453
+Iteration number exceeded the max of 50 iterations
+iteration_times: 50
+GD: 0.9686274509803922, time cost: 0.10752582550048828
+SMO: 0.9490196078431372, time cost: 1.8376131057739258
+Iteration number exceeded the max of 60 iterations
+iteration_times: 60
+GD: 0.9764705882352941, time cost: 0.14362192153930664
+SMO: 0.9450980392156862, time cost: 2.213641881942749
+Iteration number exceeded the max of 70 iterations
+iteration_times: 70
+GD: 0.996078431372549, time cost: 0.16226792335510254
+SMO: 0.9529411764705882, time cost: 2.6744132041931152
+Iteration number exceeded the max of 80 iterations
+iteration_times: 80
+GD: 0.9921568627450981, time cost: 0.17059803009033203
+SMO: 0.9568627450980393, time cost: 3.0353810787200928
+Iteration number exceeded the max of 90 iterations
+iteration_times: 90
+GD: 0.9921568627450981, time cost: 0.20822715759277344
+SMO: 0.9568627450980393, time cost: 3.40474796295166
+Iteration number exceeded the max of 100 iterations
+iteration_times: 100
+GD: 0.984313725490196, time cost: 0.23517918586730957
+SMO: 0.9568627450980393, time cost: 3.8303518295288086
+Iteration number exceeded the max of 150 iterations
+iteration_times: 150
+GD: 0.984313725490196, time cost: 0.3611149787902832
+SMO: 0.9529411764705882, time cost: 6.578824996948242
+Iteration number exceeded the max of 200 iterations
+iteration_times: 200
+GD: 0.9882352941176471, time cost: 0.47894811630249023
+SMO: 0.9529411764705882, time cost: 8.17919111251831
+Iteration number exceeded the max of 250 iterations
+iteration_times: 250
+GD: 0.9882352941176471, time cost: 0.580977201461792
+SMO: 0.9529411764705882, time cost: 10.149343013763428
+Iteration number exceeded the max of 300 iterations
+iteration_times: 300
+GD: 0.996078431372549, time cost: 0.7048709392547607
+SMO: 0.9529411764705882, time cost: 11.429916858673096
+
+---
+
+Iteration number exceeded the max of 20 iterations
+iteration_times: 20
+GD: 0.7207792207792207, time cost: 0.15519094467163086
+SMO: 0.687012987012987, time cost: 2.611630916595459
+Iteration number exceeded the max of 30 iterations
+iteration_times: 30
+GD: 0.7142857142857143, time cost: 0.2642490863800049
+SMO: 0.6987012987012987, time cost: 3.9111831188201904
+Iteration number exceeded the max of 40 iterations
+iteration_times: 40
+GD: 0.7467532467532467, time cost: 0.3625161647796631
+SMO: 0.6753246753246753, time cost: 5.374754905700684
+Conversed occurred at 43 iteration
+iteration_times: 50
+GD: 0.7077922077922078, time cost: 0.4205341339111328
+SMO: 0.712987012987013, time cost: 5.598599195480347
+Conversed occurred at 49 iteration
+iteration_times: 60
+GD: 0.7090909090909091, time cost: 0.502692699432373
+SMO: 0.6831168831168831, time cost: 6.5556840896606445
+Conversed occurred at 43 iteration
+iteration_times: 70
+GD: 0.712987012987013, time cost: 0.5835378170013428
+SMO: 0.6818181818181818, time cost: 5.77346396446228
+Conversed occurred at 39 iteration
+iteration_times: 80
+GD: 0.7194805194805195, time cost: 0.7074828147888184
+SMO: 0.6792207792207792, time cost: 5.409337043762207
+Conversed occurred at 38 iteration
+iteration_times: 90
+GD: 0.7207792207792207, time cost: 0.7769598960876465
+SMO: 0.6974025974025974, time cost: 5.185565948486328
+Conversed occurred at 39 iteration
+iteration_times: 100
+GD: 0.7168831168831169, time cost: 0.8397822380065918
+SMO: 0.7025974025974026, time cost: 5.143375873565674
+Conversed occurred at 34 iteration
+iteration_times: 150
+GD: 0.7116883116883117, time cost: 1.3573973178863525
+SMO: 0.6961038961038961, time cost: 4.592997074127197
+Conversed occurred at 36 iteration
+iteration_times: 200
+GD: 0.7155844155844155, time cost: 1.714406967163086
+SMO: 0.6857142857142857, time cost: 5.28507399559021
+Conversed occurred at 41 iteration
+iteration_times: 250
+GD: 0.7259740259740259, time cost: 2.2125020027160645
+SMO: 0.6662337662337663, time cost: 5.944631099700928
+Conversed occurred at 42 iteration
+iteration_times: 300
+GD: 0.7194805194805195, time cost: 2.7273406982421875
+SMO: 0.6922077922077922, time cost: 6.046749114990234
